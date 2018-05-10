@@ -71,7 +71,7 @@ public class ExcelUtils {
 
 		for (int i = 0; i < rows.size(); i++) {
 			for (int j = 0; j < columns; j++) {
-				data[i][j] = getCellData(i, j);
+				data[i][j] = getCellData(rows.get(i), j);
 			}
 		}
 		return data;

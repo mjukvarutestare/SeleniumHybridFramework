@@ -1,4 +1,4 @@
-package se.campustelge.SeleniumHybridFramework;
+package se.campustelge.selenium_hybrid_framework;
 
 /**
  * Hello world!
